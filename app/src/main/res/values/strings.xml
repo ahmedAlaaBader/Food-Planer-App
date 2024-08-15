@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">foodPlanerApp</string>
+
+    <string name="google_Auth">724104785723-0gb42a3ovc0ka39to4rinpu6fk6pcl8i.apps.googleusercontent.com</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="FoodPlaner">Food Planer</string>
+    <string name="welcomMessage">"yami yami foods "</string>
+    <string name="signUp">Sign UP</string>
+    <string name="login">Login</string>
+    <string name="SignIn">Sign In</string>
+    <string name="register">Registeration</string>
+    <string name="userName">User Name</string>
+    <string name="email">enter your email</string>
+    <string name="haveaccount">"Or you have an account "</string>
+    <string name="havenotacc">Or sign in if you havent account</string>
+    <string name="SignUp">" Sign up"</string>
+    <string name="haventacc">Or sign up if you haven\'t account</string>
+    <string name="password">enter your password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">"search for foods "</string>
+    <string name="serchAtFoodCat">Search at food catagories</string>
+    <string name="FoodCat">Food catagories</string>
+    <string name="country">"countries "</string>
+    <string name="countryName">Egypt</string>
+    <string name="procedures">Procedures</string>
+    <string name="take_a_look_to_learn">Take a look to learn</string>
+    <string name="add_to_app_calender">Add to your calender</string>
+    <string name="Day">Sunday</string>
+    <string name="fav">My Favorite</string>
+    <string name="random">Daily Meal</string>
+    <string name="calender">Plan</string>
+    <string name="Sunday">Sunday</string>
+    <string name="Monday">Monday</string>
+    <string name="Tuesday">Tuesday\n</string>
+    <string name="Wednesday">Wednesday\n</string>
+    <string name="Thursday">Thursday\n</string>
+    <string name="Friday">Friday</string>
+    <string name="Saturday">Saturday\n</string>
+    <string name="Plan">Saturday Plan</string>
+    <string name="All_Plan">Week Plan</string>
+    <string name="week_Plan">Week Plan</string>
+    <string name="contaniu">Or sign with</string>
+    <string name="signOut">Sign Out</string>
+</resources>

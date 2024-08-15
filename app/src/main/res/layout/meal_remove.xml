@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewWeekPlanRow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/mediumGray"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="16dp"
+        android:layout_margin="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/meal_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/meal"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/Text_bg"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/titleMeal_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:textSize="28sp"
+                    android:background="@color/Text_bg"
+                    android:paddingStart="15dp"
+                    tools:text="Traditional French omelette" />
+
+                <TextView
+                    android:id="@+id/countryMeal_textView"
+                    android:layout_width="wrap_content"
+                    android:background="@color/Text_bg"
+                    android:layout_height="wrap_content"
+                    android:textSize="28sp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:paddingStart="16dp"
+                    tools:text="mealDto in plan" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/deleteFromPlan_imageView"
+                android:layout_width="0dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:src="@drawable/remove"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
